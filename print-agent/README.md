@@ -8,6 +8,14 @@ Agente local para integração com o Maker via HTTP, sem abrir páginas para imp
 - Impressão direta de texto.
 - Impressão direta de arquivos (TXT, PDF e demais tipos via shell do Windows).
 - Opção para iniciar automaticamente com o Windows (pergunta no início do executável).
+- Ícone na bandeja do Windows (ao lado do relógio), com menu para fechar o agente.
+
+
+## Execução do agente
+Ao iniciar, o agente sobe a API local e fica com um ícone na bandeja do Windows (próximo ao relógio).
+
+- Clique com o botão direito no ícone para abrir o menu.
+- Use **Fechar agente** para encerrar o serviço local.
 
 ## Endpoints
 Base URL padrão: `http://127.0.0.1:17777`
